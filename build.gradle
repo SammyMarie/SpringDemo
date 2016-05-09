@@ -21,17 +21,17 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
-    compile 'org.springframework:spring-webmvc:4.2.3.RELEASE'
+    compile 'org.springframework:spring-webmvc:4.2.5.RELEASE'
     compile 'mysql:mysql-connector-java:5.1.37'
     compile 'org.springframework:spring-test:2.5'
     compile 'org.mockito:mockito-all:1.9.5'
     compile 'javax.servlet:javax.servlet-api:3.0.1'
     compile 'javax.servlet:jstl:1.2'
-    compile 'org.springframework:spring-jdbc:4.2.2.RELEASE'
+    compile 'org.springframework:spring-jdbc:4.2.5.RELEASE'
     compile 'org.springframework:spring-dao:2.0.8'
     compile 'org.dbunit:dbunit:2.5.1'
 }
 
 task wrapper(type : Wrapper){
-    gradleVersion = '2.9'
+    gradleVersion = '2.13'
 }
